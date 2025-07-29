@@ -1,0 +1,20 @@
+{
+  "name": "cloudflare-auth-worker",
+  "version": "1.0.0",
+  "description": "Authentication API using Cloudflare Workers and Firebase",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "build": "tsc"
+  },
+  "keywords": ["cloudflare", "workers", "firebase", "authentication", "typescript"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240512.0",
+    "typescript": "^5.0.0",
+    "wrangler": "^3.57.0"
+  },
+  "dependencies": {}
+}
