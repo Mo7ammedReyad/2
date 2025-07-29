@@ -2,9 +2,7 @@ name = "auth-worker"
 main = "src/index.ts"
 compatibility_date = "2024-05-01"
 
-[env.production]
-vars = { ENVIRONMENT = "production" }
-
-[[env.production.vars]]
+[env.production.vars]
+ENVIRONMENT = "production"
 FIREBASE_URL = "https://zylos-test-default-rtdb.firebaseio.com"
 FIREBASE_SECRET = "N2FdqX2n0z4zhiSKp5nq2Q8MXr7UZ9fZRY2hPxlJ"
